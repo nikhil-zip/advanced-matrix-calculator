@@ -688,7 +688,7 @@ button:focus-visible, input:focus-visible {
     position: relative;
     overflow: hidden;
     display: grid;
-    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-columns: minmax(220px, 0.8fr) minmax(0, 1.6fr);
     align-items: center;
     gap: 2rem;
     padding: 2rem;
@@ -855,7 +855,7 @@ button:focus-visible, input:focus-visible {
     box-shadow: 0 16px 36px rgba(16, 185, 129, 0.28), 0 0 24px rgba(59, 130, 246, 0.22);
 }
 
-@media (max-width: 1120px) {
+@media (max-width: 900px) {
     .footer-inner {
         grid-template-columns: 1fr;
         text-align: center;
@@ -873,8 +873,13 @@ button:focus-visible, input:focus-visible {
     }
 
     .footer-inner {
-        padding: 1.35rem;
+        padding: 1.2rem;
         border-radius: 22px;
+        gap: 1.2rem;
+    }
+
+    .footer-brand h3 {
+        font-size: 1.4rem;
     }
 
     .footer-kicker {
@@ -886,11 +891,21 @@ button:focus-visible, input:focus-visible {
     }
 
     .social-dock {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0.65rem;
     }
 
     .social {
         width: 100%;
-        min-height: 54px;
+        min-width: 0;
+        min-height: 50px;
+        gap: 0.45rem;
+        padding: 0.75rem 0.4rem;
+        border-radius: 13px;
+        font-size: 0.82rem;
+    }
+
+    .social i {
+        font-size: 1rem;
     }
 }

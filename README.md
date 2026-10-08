@@ -227,11 +227,11 @@ Software Development Intern • Full-Stack Developer • Founder @ Gorakhpur Web
   <img src="https://skillicons.dev/icons?i=gmail" height="55"/>
 </a>
 
-<a href="https://www.linkedin.com/in/nikhil-mca-in/">
+<a href="https://www.linkedin.com/in/nikhil-zip/">
   <img src="https://skillicons.dev/icons?i=linkedin" height="55"/>
 </a>
 
-<a href="https://github.com/nikhil-mca-code">
+<a href="https://github.com/nikhil-zip">
   <img src="https://skillicons.dev/icons?i=github" height="55"/>
 </a>
 
